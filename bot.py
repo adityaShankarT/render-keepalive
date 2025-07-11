@@ -4,7 +4,7 @@ import time
 
 def generate_fake_email():
     user = ''.join(random.choices('abcdefghijklmnopqrstuvwxyz1234567890', k=10))
-    return f"{user}@example.com"
+    return f"bot-{user}@example.com"
 
 def ping():
     url = "https://landingpagebackend-df79.onrender.com/api/subscribe"
